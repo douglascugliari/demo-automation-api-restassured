@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'io.freefair.lombok' version '5.0.1'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.+'
+    testImplementation 'io.rest-assured:rest-assured:4.+'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.+'
+}
